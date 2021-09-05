@@ -1,0 +1,55 @@
+.all-students {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 3%;
+}
+.students-heading {
+  padding: 2%;
+}
+.student-table {
+  /* border: 1px solid; */
+  width: 80%;
+  height: 350px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  overflow: auto;
+}
+.student-table-header {
+  display: flex;
+  margin: 2px;
+}
+.student-col-heading {
+  padding: 10px;
+  text-align: center;
+  background-color: #dadada;
+  font-weight: bold;
+}
+.student-table-data {
+  display: flex;
+  margin-bottom: 5px;
+}
+.student-col-data {
+  padding: 10px;
+  text-align: center;
+  word-break: break-all;
+}
+.assign-button {
+  background-color: #060b26;
+  border: 1px solid #060b26;
+  color: white;
+}
+.assign-button:hover {
+  background-color: #1a83ff;
+  border: 1px solid #1a83ff;
+}
+::-webkit-scrollbar {
+  width: 0;
+  background: transparent;
+}
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

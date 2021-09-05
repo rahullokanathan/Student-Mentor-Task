@@ -1,0 +1,47 @@
+.assigned-students {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 3%;
+}
+.assigned-students-heading {
+  padding: 2%;
+}
+.assigned-students-table {
+  /* border: 1px solid; */
+  width: 80%;
+  height: 350px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  overflow: auto;
+}
+.assigned-students-table-header {
+  display: flex;
+  margin: 2px;
+}
+.assigned-students-col-heading {
+  padding: 10px;
+  text-align: center;
+  background-color: #dadada;
+  font-weight: bold;
+}
+.assigned-students-table-data {
+  display: flex;
+  margin-bottom: 5px;
+}
+.assigned-students-col-data {
+  padding: 10px;
+  text-align: center;
+  word-break: break-all;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+  background: transparent;
+}
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
